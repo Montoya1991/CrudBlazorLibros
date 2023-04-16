@@ -1,0 +1,66 @@
+﻿@page "/Libros"
+@using CrudBlazorServerApp1.Models
+@using CrudBlazorServerApp1.Repositorio
+@inject IRepositorio Repositorio
+
+<h3>Crud Basico de Blazor https://www.youtube.com/watch?v=lQ2sn6zu1eA&t=4487s&ab_channel=render2web </h3>
+<div class="Card">
+    <div class="card-header bg-black">
+        <div class="row">
+            <div class="col-sm-9">
+                <h2 class="text-info">Lista de libros</h2>
+            </div>
+            <div class="col-sm-3">
+                <a href="libros/crear" class="btn btn-primary">Crear Nuevo Libro</a>
+            </div>
+        </div>
+    </div>
+    <div class="card-body">
+        <table class="table table-striped border">
+            <tr class="table-secondary">
+                <th>Id</th>
+                <th>Titulo</th>
+                <th>Descripcion</th>
+                <th>Autor</th>
+                <th>Paginas</th>
+                <th>Fecha de creacion</th>
+                <th>Precio</th>
+                <th>Acciones</th>
+            </tr>
+            @foreach (var item in listaLibros)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Title</td>
+                    <td>@item.Description</td>
+                    <td>@item.Autor</td>
+                    <td>@item.Page</td>
+                    <td>@item.Datecreation</td>
+                    <td>@item.Cost</td>
+                    <td>
+                        <a href="libros/editar/@item.Id" class="btn btn-success btn-sm">Editar</a>
+                        <button @onclick="@(()=> BorrarLibro(item.Id))" class="btn btn-danger btn-sm">Borrar</button>
+                    </td>
+                </tr>
+                
+            }
+        </table>
+    </div>
+</div>
+
+@code {
+    private List<Book> listaLibros = new List<Book>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        listaLibros = await Repositorio.GetBooks();
+    }
+
+    //metodo borrar
+    private async Task  BorrarLibro(int LibroId)
+    {
+        await Repositorio.DeleteBook(LibroId);
+        //Actualizar modelo de libros para que se refresque la lista al borrar
+        listaLibros = await Repositorio.GetBooks();
+    }
+}

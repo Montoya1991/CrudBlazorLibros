@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CrudBlazorServerApp1.props" />
+</Project>
