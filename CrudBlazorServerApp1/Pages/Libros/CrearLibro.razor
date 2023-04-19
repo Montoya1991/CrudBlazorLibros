@@ -98,7 +98,7 @@
     //Metodo para guardar
     private async Task ManejadorCrearLibro()
     {
-        var CrearLibro = await Repositorio.CreateBook(modelolibro);
+        var CrearLibro = await Repositorio.crearLibro(modelolibro);
         NavigationManager.NavigateTo("/Libros");
     }
 }

@@ -105,7 +105,7 @@
     //Metodo para Editar
     private async Task ManejadorEditarLibro()
     {
-        var EditarLibro = await Repositorio.UpdateBook(Id.Value, modelolibro);
+        var EditarLibro = await Repositorio.ActualizarLibro(Id.Value, modelolibro);
         NavigationManager.NavigateTo("/Libros");
     }
 }

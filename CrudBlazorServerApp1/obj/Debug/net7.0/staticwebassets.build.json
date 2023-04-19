@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "q/oh3qjzEo/PTIF/YSFvbp20SoTTITkMVDB10a4ujy0=",
+  "Hash": "LZeDnHTrL8d/6H9YATtOXmtvvVlxcKusfgHrOHWqIx0=",
   "Source": "CrudBlazorServerApp1",
   "BasePath": "_content/CrudBlazorServerApp1",
   "Mode": "Default",
@@ -83,23 +83,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
-    },
-    {
-      "Identity": "D:\\Proyectos CShark\\CrudBlazorServerApp1\\CrudBlazorServerApp1\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
-      "SourceId": "CrudBlazorServerApp1",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Proyectos CShark\\CrudBlazorServerApp1\\CrudBlazorServerApp1\\wwwroot\\",
-      "BasePath": "_content/CrudBlazorServerApp1",
-      "RelativePath": "css/open-iconic/FONT-LICENSE",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
       "Identity": "D:\\Proyectos CShark\\CrudBlazorServerApp1\\CrudBlazorServerApp1\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
@@ -202,6 +185,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Identity": "D:\\Proyectos CShark\\CrudBlazorServerApp1\\CrudBlazorServerApp1\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "SourceId": "CrudBlazorServerApp1",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Proyectos CShark\\CrudBlazorServerApp1\\CrudBlazorServerApp1\\wwwroot\\",
+      "BasePath": "_content/CrudBlazorServerApp1",
+      "RelativePath": "css/open-iconic/FONT-LICENSE",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
       "Identity": "D:\\Proyectos CShark\\CrudBlazorServerApp1\\CrudBlazorServerApp1\\wwwroot\\css\\open-iconic\\ICON-LICENSE",

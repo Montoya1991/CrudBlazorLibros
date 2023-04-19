@@ -37,30 +37,42 @@
                     <td>@item.Page</td>
                     <td>@item.Datecreation</td>
                     <td>@item.Cost</td>
+                    <td>@item.</td>
                     <td>
                         <a href="libros/editar/@item.Id" class="btn btn-success btn-sm">Editar</a>
                         <button @onclick="@(()=> BorrarLibro(item.Id))" class="btn btn-danger btn-sm">Borrar</button>
                     </td>
                 </tr>
-                
             }
         </table>
+        <div class="mt-4">
+            <label for="titulos">Títulos Separados:</label>
+            <input type="text" @bind="titulosSeparados" />
+        </div>
     </div>
 </div>
 
 @code {
     private List<Book> listaLibros = new List<Book>();
 
+    private string titulosSeparados;
+
     protected override async Task OnInitializedAsync()
     {
+        List<string> titulos = new List<string>();
         listaLibros = await Repositorio.GetBooks();
+        foreach (var libro in listaLibros)
+        {
+            titulos.Add(libro.Title);
+        }
+        titulosSeparados = string.Join(";", titulos);
     }
 
     //metodo borrar
-    private async Task  BorrarLibro(int LibroId)
+    private async Task BorrarLibro(int LibroId)
     {
         await Repositorio.DeleteBook(LibroId);
         //Actualizar modelo de libros para que se refresque la lista al borrar
-        listaLibros = await Repositorio.GetBooks();
+         listaLibros = await Repositorio.GetBooks();
     }
 }
