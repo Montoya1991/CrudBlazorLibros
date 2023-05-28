@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1slV7y1E6rxsup9JaHhseVK/mZXdTRzV4mr8HR+6Lt6ELSfLJMiKc54ZJvIL+MoICl0Ucdx5saKN/jMtZE4GtA==",
+  "dgSpecHash": "b8TDA75vljGo5SnmU3L34AZ/TgJPca8a6rFIZyGtHHwVaQJqXsy6dmt+EHaulQKTkJDc4kayJEJ6DJ4BsxHPrw==",
   "success": true,
-  "projectFilePath": "D:\\Proyectos CShark\\CrudBlazorServerApp1\\CrudBlazorServerApp1\\CrudBlazorServerApp1.csproj",
+  "projectFilePath": "D:\\Proyectos_CShark\\CrudBlazorServerApp1\\CrudBlazorServerApp1\\CrudBlazorServerApp1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jdmon\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\jdmon\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

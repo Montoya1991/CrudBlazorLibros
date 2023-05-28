@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Proyectos CShark\\CrudBlazorServerApp1\\CrudBlazorServerApp1\\CrudBlazorServerApp1.csproj": {}
+    "D:\\Proyectos_CShark\\CrudBlazorServerApp1\\CrudBlazorServerApp1\\CrudBlazorServerApp1.csproj": {}
   },
   "projects": {
-    "D:\\Proyectos CShark\\CrudBlazorServerApp1\\CrudBlazorServerApp1\\CrudBlazorServerApp1.csproj": {
+    "D:\\Proyectos_CShark\\CrudBlazorServerApp1\\CrudBlazorServerApp1\\CrudBlazorServerApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Proyectos CShark\\CrudBlazorServerApp1\\CrudBlazorServerApp1\\CrudBlazorServerApp1.csproj",
+        "projectUniqueName": "D:\\Proyectos_CShark\\CrudBlazorServerApp1\\CrudBlazorServerApp1\\CrudBlazorServerApp1.csproj",
         "projectName": "CrudBlazorServerApp1",
-        "projectPath": "D:\\Proyectos CShark\\CrudBlazorServerApp1\\CrudBlazorServerApp1\\CrudBlazorServerApp1.csproj",
+        "projectPath": "D:\\Proyectos_CShark\\CrudBlazorServerApp1\\CrudBlazorServerApp1\\CrudBlazorServerApp1.csproj",
         "packagesPath": "C:\\Users\\jdmon\\.nuget\\packages\\",
-        "outputPath": "D:\\Proyectos CShark\\CrudBlazorServerApp1\\CrudBlazorServerApp1\\obj\\",
+        "outputPath": "D:\\Proyectos_CShark\\CrudBlazorServerApp1\\CrudBlazorServerApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jdmon\\AppData\\Roaming\\NuGet\\NuGet.Config",
